@@ -1,0 +1,175 @@
+2018-08-22 16:11:56 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-22 16:11:56 - Started 10684
+2018-08-22 16:14:14 - Stopping tazawabot.exe
+2018-08-22 16:14:14 - ProcessKill 10684
+2018-08-22 16:14:15 - Found child process: 17952 Name: conhost.exe
+2018-08-22 16:14:15 - Found child process: 8980 Name: node.exe
+2018-08-22 16:14:15 - Stopping process 17952
+2018-08-22 16:14:15 - Send SIGINT 17952
+2018-08-22 16:14:15 - SIGINT to 17952 failed - Killing as fallback
+2018-08-22 16:14:15 - Stopping process 8980
+2018-08-22 16:14:15 - Send SIGINT 8980
+2018-08-22 16:14:15 - SIGINT to 8980 failed - Killing as fallback
+2018-08-22 16:14:15 - Stopping process 10684
+2018-08-22 16:14:15 - Send SIGINT 10684
+2018-08-22 16:14:15 - SIGINT to 10684 failed - Killing as fallback
+2018-08-22 16:14:15 - Finished tazawabot.exe
+2018-08-22 16:14:26 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-22 16:14:26 - Started 8804
+2018-08-22 21:58:50 - Stopping tazawabot.exe
+2018-08-22 21:58:50 - ProcessKill 8804
+2018-08-22 21:58:50 - Found child process: 12512 Name: conhost.exe
+2018-08-22 21:58:50 - Found child process: 8620 Name: node.exe
+2018-08-22 21:58:50 - Stopping process 12512
+2018-08-22 21:58:50 - Send SIGINT 12512
+2018-08-22 21:58:50 - SIGINT to 12512 failed - Killing as fallback
+2018-08-22 21:58:50 - Stopping process 8620
+2018-08-22 21:58:50 - Send SIGINT 8620
+2018-08-22 21:58:50 - SIGINT to 8620 failed - Killing as fallback
+2018-08-22 21:58:50 - Stopping process 8804
+2018-08-22 21:58:50 - Send SIGINT 8804
+2018-08-22 21:58:50 - SIGINT to 8804 failed - Killing as fallback
+2018-08-22 21:58:50 - Finished tazawabot.exe
+2018-08-22 22:00:22 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-22 22:00:22 - Started 2072
+2018-08-22 22:00:37 - Stopping tazawabot.exe
+2018-08-22 22:00:37 - ProcessKill 2072
+2018-08-22 22:00:37 - Found child process: 11964 Name: conhost.exe
+2018-08-22 22:00:37 - Found child process: 4316 Name: node.exe
+2018-08-22 22:00:37 - Stopping process 11964
+2018-08-22 22:00:37 - Send SIGINT 11964
+2018-08-22 22:00:37 - SIGINT to 11964 failed - Killing as fallback
+2018-08-22 22:00:37 - Stopping process 4316
+2018-08-22 22:00:37 - Send SIGINT 4316
+2018-08-22 22:00:37 - SIGINT to 4316 failed - Killing as fallback
+2018-08-22 22:00:37 - Stopping process 2072
+2018-08-22 22:00:37 - Send SIGINT 2072
+2018-08-22 22:00:37 - SIGINT to 2072 failed - Killing as fallback
+2018-08-22 22:00:37 - Finished tazawabot.exe
+2018-08-23 00:31:08 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-23 00:31:08 - Started 144
+2018-08-23 13:15:31 - Stopping tazawabot.exe
+2018-08-23 13:15:31 - ProcessKill 144
+2018-08-23 13:15:31 - Found child process: 18024 Name: conhost.exe
+2018-08-23 13:15:31 - Found child process: 3924 Name: node.exe
+2018-08-23 13:15:31 - Stopping process 18024
+2018-08-23 13:15:31 - Send SIGINT 18024
+2018-08-23 13:15:31 - SIGINT to 18024 failed - Killing as fallback
+2018-08-23 13:15:32 - Stopping process 3924
+2018-08-23 13:15:32 - Send SIGINT 3924
+2018-08-23 13:15:32 - SIGINT to 3924 failed - Killing as fallback
+2018-08-23 13:15:32 - Stopping process 144
+2018-08-23 13:15:32 - Send SIGINT 144
+2018-08-23 13:15:32 - SIGINT to 144 failed - Killing as fallback
+2018-08-23 13:15:32 - Finished tazawabot.exe
+2018-08-23 13:15:44 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-23 13:15:44 - Started 19776
+2018-08-23 13:57:18 - Stopping tazawabot.exe
+2018-08-23 13:57:18 - ProcessKill 19776
+2018-08-23 13:57:18 - Found child process: 14972 Name: conhost.exe
+2018-08-23 13:57:18 - Found child process: 15652 Name: node.exe
+2018-08-23 13:57:18 - Stopping process 14972
+2018-08-23 13:57:18 - Send SIGINT 14972
+2018-08-23 13:57:18 - SIGINT to 14972 failed - Killing as fallback
+2018-08-23 13:57:18 - Stopping process 15652
+2018-08-23 13:57:18 - Send SIGINT 15652
+2018-08-23 13:57:18 - SIGINT to 15652 failed - Killing as fallback
+2018-08-23 13:57:18 - Stopping process 19776
+2018-08-23 13:57:18 - Send SIGINT 19776
+2018-08-23 13:57:18 - SIGINT to 19776 failed - Killing as fallback
+2018-08-23 13:57:18 - Finished tazawabot.exe
+2018-08-23 13:57:24 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-23 13:57:24 - Started 13116
+2018-08-23 14:07:10 - Stopping tazawabot.exe
+2018-08-23 14:07:10 - ProcessKill 13116
+2018-08-23 14:07:10 - Found child process: 7324 Name: conhost.exe
+2018-08-23 14:07:10 - Found child process: 8240 Name: node.exe
+2018-08-23 14:07:10 - Stopping process 7324
+2018-08-23 14:07:10 - Send SIGINT 7324
+2018-08-23 14:07:10 - SIGINT to 7324 failed - Killing as fallback
+2018-08-23 14:07:10 - Stopping process 8240
+2018-08-23 14:07:10 - Send SIGINT 8240
+2018-08-23 14:07:10 - SIGINT to 8240 failed - Killing as fallback
+2018-08-23 14:07:10 - Stopping process 13116
+2018-08-23 14:07:10 - Send SIGINT 13116
+2018-08-23 14:07:10 - SIGINT to 13116 failed - Killing as fallback
+2018-08-23 14:07:10 - Finished tazawabot.exe
+2018-08-23 14:07:11 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-23 14:07:11 - Started 13540
+2018-08-23 14:10:39 - Stopping tazawabot.exe
+2018-08-23 14:10:39 - ProcessKill 13540
+2018-08-23 14:10:39 - Found child process: 11780 Name: conhost.exe
+2018-08-23 14:10:39 - Found child process: 444 Name: node.exe
+2018-08-23 14:10:39 - Stopping process 11780
+2018-08-23 14:10:39 - Send SIGINT 11780
+2018-08-23 14:10:39 - SIGINT to 11780 failed - Killing as fallback
+2018-08-23 14:10:39 - Stopping process 444
+2018-08-23 14:10:39 - Send SIGINT 444
+2018-08-23 14:10:39 - SIGINT to 444 failed - Killing as fallback
+2018-08-23 14:10:39 - Stopping process 13540
+2018-08-23 14:10:39 - Send SIGINT 13540
+2018-08-23 14:10:39 - SIGINT to 13540 failed - Killing as fallback
+2018-08-23 14:10:39 - Finished tazawabot.exe
+2018-08-23 14:10:40 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-23 14:10:40 - Started 12368
+2018-08-23 20:11:13 - Stopping tazawabot.exe
+2018-08-23 20:11:13 - ProcessKill 12368
+2018-08-23 20:11:13 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-08-23 20:12:00 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-23 20:12:00 - Started 5996
+2018-08-23 20:12:51 - Stopping tazawabot.exe
+2018-08-23 20:12:51 - ProcessKill 5996
+2018-08-23 20:12:51 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-08-23 20:13:19 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-23 20:13:19 - Started 6252
+2018-08-23 20:32:15 - Stopping tazawabot.exe
+2018-08-23 20:32:15 - ProcessKill 6252
+2018-08-23 20:32:15 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-08-23 20:32:39 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-23 20:32:39 - Started 5400
+2018-08-24 13:55:58 - Stopping tazawabot.exe
+2018-08-24 13:55:58 - ProcessKill 5400
+2018-08-24 13:55:58 - Found child process: 5420 Name: conhost.exe
+2018-08-24 13:55:58 - Found child process: 6468 Name: node.exe
+2018-08-24 13:55:58 - Stopping process 5420
+2018-08-24 13:55:58 - Send SIGINT 5420
+2018-08-24 13:55:58 - SIGINT to 5420 failed - Killing as fallback
+2018-08-24 13:55:58 - Stopping process 6468
+2018-08-24 13:55:58 - Send SIGINT 6468
+2018-08-24 13:55:58 - SIGINT to 6468 failed - Killing as fallback
+2018-08-24 13:55:58 - Stopping process 5400
+2018-08-24 13:55:58 - Send SIGINT 5400
+2018-08-24 13:55:58 - SIGINT to 5400 failed - Killing as fallback
+2018-08-24 13:55:58 - Finished tazawabot.exe
+2018-08-24 13:58:06 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Orion Bloomfield\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Orion Bloomfield\Desktop\Discbot\bot.js" --log "tazawabot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-24 13:58:06 - Started 14280
