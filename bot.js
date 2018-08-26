@@ -200,7 +200,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			setTimeout(function(){ 
 					bot.sendMessage({
 						to: channelID,
-						message: "k!shiritori"
+						message: "eric_shiritori"
 					});; 
 				}, 5000);
 		}
@@ -299,6 +299,53 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 						});; 
 				}, 2000);
 				biidoCount =0;
+			}
+			else{
+				bot.sendMessage({
+							to: channelID,
+							message: 'access denied, biido'
+						});; 
+			}
+			
+		}
+		else if(message.toUpperCase().includes("ERIC SETUP")){
+			if(userID == "133692090432487424" || userID == "149920811275386880"){
+				bot.sendMessage({
+							to: channelID,
+							message: 'k!settings'
+						});;
+				bot.sendMessage({
+							to: channelID,
+							message: '1'
+						});; 
+				bot.sendMessage({
+							to: channelID,
+							message: 'eric_'
+						});; 
+				bot.sendMessage({
+							to: channelID,
+							message: 'confirm'
+						});; 
+				bot.sendMessage({
+							to: channelID,
+							message: 'eric_settings'
+						});; 
+				bot.sendMessage({
+							to: channelID,
+							message: '3'
+						});; 
+				bot.sendMessage({
+							to: channelID,
+							message: '8'
+						});; 
+				bot.sendMessage({
+							to: channelID,
+							message: 'enabled'
+						});; 
+				bot.sendMessage({
+							to: channelID,
+							message: 'this server'
+						});; 
 			}
 			else{
 				bot.sendMessage({
