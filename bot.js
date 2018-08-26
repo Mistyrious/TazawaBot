@@ -199,7 +199,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			setTimeout(function(){ 
 					bot.sendMessage({
 						to: channelID,
-						message: "k!quiz N5+N4"
+						message: "k!shiritori"
 					});; 
 				}, 5000);
 		}
