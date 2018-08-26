@@ -310,55 +310,55 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 							to: channelID,
 							message: 'k!settings'
 						});; 
-				}, 100);
+				}, 200);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: '1'
 						});; 
-				}, 200);
+				}, 400);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: 'eric_'
 						});; 
-				}, 300);
+				}, 600);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: 'confirm'
 						});; 
-				}, 400); 
+				}, 800); 
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: 'eric_settings'
 						});; 
-				}, 500);
+				}, 1000);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: '3'
 						});; 
-				}, 600);
+				}, 1200);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: '8'
 						});; 
-				}, 700);
+				}, 1400);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: 'enabled'
 						});; 
-				}, 800);
+				}, 1600);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: 'this server'
 						});; 
-				}, 900); 
+				}, 1800); 
 			}
 			else{
 				bot.sendMessage({
