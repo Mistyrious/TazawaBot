@@ -170,13 +170,8 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			});
 		}
 		
-		if(message.toUpperCase().includes("ERIC")){
-			bot.sendMessage({
-                    to: channelID,
-                    message: 'What about my son?'
-			});
-		}
-		else if(message.toUpperCase().includes("SHIRITORI") && !message.toUpperCase().includes("QUIZ")){
+		
+		if(message.toUpperCase().includes("SHIRITORI") && !message.toUpperCase().includes("QUIZ")){
 			bot.sendMessage({
                 to: channelID,
 				message: "join"
@@ -366,6 +361,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 							to: channelID,
 							message: "Anytime, bubbo. 😎"
 							});
+		}
+		else if(message.toUpperCase().includes("ERIC")){
+			bot.sendMessage({
+                    to: channelID,
+                    message: 'What about my son?'
+			});
 		}
 		else if(message.toUpperCase().includes("ZAWA") || message.toUpperCase().includes("SENSEI") || message.toUpperCase().includes("KAYOKO")){
 			setTimeout(function(){ 
