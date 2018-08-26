@@ -329,36 +329,47 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 							message: 'confirm'
 						});; 
 				}, 800); 
+			}
+			else{
+				bot.sendMessage({
+							to: channelID,
+							message: 'access denied, biido'
+						});; 
+			}
+			
+		}
+		else if(message.toUpperCase().includes("ERIC SETUP 2")){
+			if(userID == "133692090432487424" || userID == "149920811275386880"){
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: 'eric_settings'
 						});; 
-				}, 1000);
+				}, 200);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: '3'
 						});; 
-				}, 1200);
+				}, 400);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: '8'
 						});; 
-				}, 1400);
+				}, 600);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: 'enabled'
 						});; 
-				}, 1600);
+				}, 800);
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
 							message: 'this server'
 						});; 
-				}, 1800); 
+				}, 1000); 
 			}
 			else{
 				bot.sendMessage({
