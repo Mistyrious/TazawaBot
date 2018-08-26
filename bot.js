@@ -32,8 +32,6 @@ bot.on('ready', function (evt) {
     logger.info(bot.username + ' - (' + bot.id + ')');
 });
 bot.on('message', function (user, userID, channelID, message, evt) {
-    // Our bot needs to know if it will execute a command
-    // It will listen for messages that will start with `!`
 	
 	if(sleepy){
 		if(message.toUpperCase().includes("AWAKEN") || message.toUpperCase().includes("A W A K E N")){
@@ -198,6 +196,22 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 						message: "eric_shiritori"
 					});; 
 				}, 5000);
+		}
+		else if(message.toUpperCase().includes("TAZAWA SKIP")){
+			setTimeout(function(){ 
+					bot.sendMessage({
+						to: channelID,
+						message: 'skip'
+					});; 
+				}, 1000);
+		}
+		else if(message.toUpperCase().includes("TAZAWA LEAVE")){
+			setTimeout(function(){ 
+					bot.sendMessage({
+						to: channelID,
+						message: 'leave'
+					});; 
+				}, 1000);
 		}
 		
 		else if(message.toUpperCase().includes("OOGA BOOGA")||message.toUpperCase().includes("OOGER BOOGER")){
@@ -377,6 +391,9 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 							message: 'access denied, biido'
 						});; 
 			}
+			
+		}
+		else if(userID=="482759518665703434"){
 			
 		}
 		
