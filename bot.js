@@ -182,7 +182,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				message: "join"
 			});
 		}
-		/*
+		
 		else if(message.toUpperCase().includes("TEACH ME")){
 			setTimeout(function(){ 
 					bot.sendMessage({
@@ -203,7 +203,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					});; 
 				}, 5000);
 		}
-		*/
+		
 		else if(message.toUpperCase().includes("OOGA BOOGA")||message.toUpperCase().includes("OOGER BOOGER")){
 			oogaSwitch = !oogaSwitch
 			if(oogaSwitch){
