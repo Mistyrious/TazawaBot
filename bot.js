@@ -176,12 +176,13 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'What about my son?'
 			});
 		}
-		else if(message.toUpperCase().includes("SHIRITORI")){
+		else if(message.toUpperCase().includes("SHIRITORI") && !message.toUpperCase().includes("QUIZ")){
 			bot.sendMessage({
                 to: channelID,
 				message: "join"
 			});
 		}
+		
 		
 		else if(message.toUpperCase().includes("TEACH ME")){
 			setTimeout(function(){ 
@@ -344,7 +345,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 						case "133692090432487424": //Orion
 							bot.sendMessage({
 							to: channelID,
-							message: "Do you need me, creator?"
+							message: "Do you need me, ?? ronio?"
 							});
 							break;
 						case "149920811275386880": //Claudia
