@@ -303,41 +303,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			}
 			
 		}
-		else if(message.toUpperCase().includes("ERIC SETUP")){
-			if(userID == "133692090432487424" || userID == "149920811275386880"){
-				setTimeout(function(){ 
-						bot.sendMessage({
-							to: channelID,
-							message: 'k!settings'
-						});; 
-				}, 200);
-				setTimeout(function(){ 
-						bot.sendMessage({
-							to: channelID,
-							message: '1'
-						});; 
-				}, 400);
-				setTimeout(function(){ 
-						bot.sendMessage({
-							to: channelID,
-							message: 'eric_'
-						});; 
-				}, 600);
-				setTimeout(function(){ 
-						bot.sendMessage({
-							to: channelID,
-							message: 'confirm'
-						});; 
-				}, 800); 
-			}
-			else{
-				bot.sendMessage({
-							to: channelID,
-							message: 'access denied, biido'
-						});; 
-			}
-			
-		}
 		else if(message.toUpperCase().includes("ERIC SETUP 2")){
 			if(userID == "133692090432487424" || userID == "149920811275386880"){
 				setTimeout(function(){ 
@@ -379,6 +344,42 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			}
 			
 		}
+		else if(message.toUpperCase().includes("ERIC SETUP")){
+			if(userID == "133692090432487424" || userID == "149920811275386880"){
+				setTimeout(function(){ 
+						bot.sendMessage({
+							to: channelID,
+							message: 'k!settings'
+						});; 
+				}, 200);
+				setTimeout(function(){ 
+						bot.sendMessage({
+							to: channelID,
+							message: '1'
+						});; 
+				}, 400);
+				setTimeout(function(){ 
+						bot.sendMessage({
+							to: channelID,
+							message: 'eric_'
+						});; 
+				}, 600);
+				setTimeout(function(){ 
+						bot.sendMessage({
+							to: channelID,
+							message: 'confirm'
+						});; 
+				}, 800); 
+			}
+			else{
+				bot.sendMessage({
+							to: channelID,
+							message: 'access denied, biido'
+						});; 
+			}
+			
+		}
+		
 		else if(message.toUpperCase().includes("BOT")&&(message.toUpperCase().includes("BEST") || message.toUpperCase().includes("GREAT") || message.toUpperCase().includes("AMAZING")|| message.toUpperCase().includes("COOL")|| message.toUpperCase().includes("AWESOME")|| message.toUpperCase().includes("GOOD"))){
 			bot.sendMessage({
 							to: channelID,
