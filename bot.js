@@ -380,7 +380,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 							message: "Anytime, bubbo. 😎"
 							});
 		}
-		else if(message.toUpperCase().includes("ERIC")){
+		else if(message.toUpperCase().includes("ERIC") && userID != "482759518665703434"){
 			bot.sendMessage({
                     to: channelID,
                     message: 'What about my son?'
