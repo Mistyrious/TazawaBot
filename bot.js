@@ -305,42 +305,60 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		}
 		else if(message.toUpperCase().includes("ERIC SETUP")){
 			if(userID == "133692090432487424" || userID == "149920811275386880"){
-				bot.sendMessage({
+				setTimeout(function(){ 
+						bot.sendMessage({
 							to: channelID,
 							message: 'k!settings'
-						});;
-				bot.sendMessage({
+						});; 
+				}, 100);
+				setTimeout(function(){ 
+						bot.sendMessage({
 							to: channelID,
 							message: '1'
 						});; 
-				bot.sendMessage({
+				}, 200);
+				setTimeout(function(){ 
+						bot.sendMessage({
 							to: channelID,
 							message: 'eric_'
 						});; 
-				bot.sendMessage({
+				}, 300);
+				setTimeout(function(){ 
+						bot.sendMessage({
 							to: channelID,
 							message: 'confirm'
 						});; 
-				bot.sendMessage({
+				}, 400); 
+				setTimeout(function(){ 
+						bot.sendMessage({
 							to: channelID,
 							message: 'eric_settings'
 						});; 
-				bot.sendMessage({
+				}, 500);
+				setTimeout(function(){ 
+						bot.sendMessage({
 							to: channelID,
 							message: '3'
 						});; 
-				bot.sendMessage({
+				}, 600);
+				setTimeout(function(){ 
+						bot.sendMessage({
 							to: channelID,
 							message: '8'
 						});; 
-				bot.sendMessage({
+				}, 700);
+				setTimeout(function(){ 
+						bot.sendMessage({
 							to: channelID,
 							message: 'enabled'
 						});; 
-				bot.sendMessage({
+				}, 800);
+				setTimeout(function(){ 
+						bot.sendMessage({
 							to: channelID,
 							message: 'this server'
 						});; 
+				}, 900); 
 			}
 			else{
 				bot.sendMessage({
