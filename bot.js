@@ -393,7 +393,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			}
 			
 		}
-		else if(userID=="482759518665703434" && message.includes("@Tazawa Sensei")){
+		else if(userID=="482759518665703434"){
             bot.sendMessage({
                 to: channelID,
                 message: "**yeet**"
