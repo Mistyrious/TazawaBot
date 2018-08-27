@@ -197,6 +197,26 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					});; 
 				}, 5000);
 		}
+		else if(message.toUpperCase().includes("GAME TIME")){
+			setTimeout(function(){ 
+					bot.sendMessage({
+						to: channelID,
+						message: 'Ok, class!'
+					});; 
+				}, 1000);
+			setTimeout(function(){ 
+					bot.sendMessage({
+						to: channelID,
+						message: "Let's play a game!"
+					});; 
+				}, 2000);
+			setTimeout(function(){ 
+					bot.sendMessage({
+						to: channelID,
+						message: "eric_quiz https://pastebin.com/Us0ZXMDr"
+					});; 
+				}, 5000);
+		}
 		else if(message.toUpperCase().includes("TAZAWA SKIP")){
 			setTimeout(function(){ 
 					bot.sendMessage({
