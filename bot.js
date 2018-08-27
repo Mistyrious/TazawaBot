@@ -393,11 +393,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			}
 			
 		}
-		else if(userID=="482759518665703434" && message.includes("<@481584084556972033>")){
+		else if(userID=="482759518665703434"){
             bot.sendMessage({
                 to: channelID,
                 message: "**yeet**"
             });
+            logger.info(message);
 			if(message.includes("Next word starts with")){
                 bot.sendMessage({
                     to: channelID,
