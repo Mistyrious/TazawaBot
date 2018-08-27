@@ -393,8 +393,17 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			}
 			
 		}
-		else if(userID=="482759518665703434"){
-			
+		else if(userID=="482759518665703434" && message.includes("@481584084556972033")){
+            bot.sendMessage({
+                to: channelID,
+                message: "**yeet**"
+            });
+			if(message.includes("Next word starts with")){
+                bot.sendMessage({
+                    to: channelID,
+                    message: message
+                });
+			}
 		}
 		
 		else if(message.toUpperCase().includes("BOT")&&(message.toUpperCase().includes("BEST") || message.toUpperCase().includes("GREAT") || message.toUpperCase().includes("AMAZING")|| message.toUpperCase().includes("COOL")|| message.toUpperCase().includes("AWESOME")|| message.toUpperCase().includes("GOOD"))){
