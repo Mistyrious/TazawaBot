@@ -516,7 +516,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			
 		}
 		else if(wahahaCount%wahahaInc==0){
-			var randomWa = Math.floor(Math.random()*3)+1;
+			var randomWa = Math.floor(Math.random()*4)+1;
 			switch(randomWa){
 				case 1:
 					setTimeout(function(){ 
@@ -546,17 +546,11 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					});; 
 					}, 3000);
 					break;
-				case 3:
+				case 4:
 					setTimeout(function(){ 
 					bot.sendMessage({
 						to: channelID,
-						message: 'Waha..'
-					});; 
-					}, 2000);
-					setTimeout(function(){ 
-					bot.sendMessage({
-						to: channelID,
-						message: 'Ha?'
+						message: 'WAYAYA'
 					});; 
 					}, 2000);
 					break;
