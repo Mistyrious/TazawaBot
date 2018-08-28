@@ -72,6 +72,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			}
 		}
 	}
+	
 	else if(userID != bot.id){
 		wahahaCount++;
 		talkCount++;
@@ -413,16 +414,8 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			}
 			
 		}
-		/*
-		else if(userID=="482759518665703434"){
-            logger.info(message);
-			if(message.includes("Next word starts with")){
-                bot.sendMessage({
-                    to: channelID,
-                    message: message
-                });
-			}
-		}*/
+		
+
 		
 		else if(message.toUpperCase().includes("BOT")&&(message.toUpperCase().includes("BEST") || message.toUpperCase().includes("GREAT") || message.toUpperCase().includes("AMAZING")|| message.toUpperCase().includes("COOL")|| message.toUpperCase().includes("AWESOME")|| message.toUpperCase().includes("GOOD"))){
 			bot.sendMessage({
@@ -482,13 +475,13 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 							message: "What do you need, Shaado-kuun"
 							});
 							break;
-						case "242807193500516363": //Annabel
+						case "270737815141089280": //Annabel
 							bot.sendMessage({
 							to: channelID,
 							message: "How do you do, Alcoholic Ten Year Old Pink Aesthetic Depressed Drug Dealer Kinky Emo Hoe"
 							});
 							break;
-						case "270737815141089280": //Santiago
+						case "242807193500516363": //Santiago
 							bot.sendMessage({
 							to: channelID,
 							message: "Do you even exist, Santi?"
