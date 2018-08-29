@@ -236,13 +236,13 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				case 8:
 					bot.sendMessage({
 						to: channelID,
-						message: ':thumbsup~1:'
+						message: '<:fl_owo:484476698792820737>'
 					});; 
 					break;
 				case 9:
 					bot.sendMessage({
 						to: channelID,
-						message: ':fl_owo:'
+						message: '<:thumbsup~1:484476658946932736>'
 					});; 
 					break;
 			}
