@@ -487,6 +487,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 							message: "Do you even exist, Santi?"
 							});
 							break;
+						case "483867757037879314": //Ree
+							bot.sendMessage({
+							to: channelID,
+							message: "Yes, Ree?"
+							});
+							break;
 						default:
 							bot.sendMessage({
 							to: channelID,
