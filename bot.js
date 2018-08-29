@@ -236,44 +236,52 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		}
 		
 		else if(message.toUpperCase().includes("OOGA BOOGA")||message.toUpperCase().includes("OOGER BOOGER")){
-			oogaSwitch = !oogaSwitch
-			if(oogaSwitch){
-				wahahaInc = 10;
-				talkInc = 5;
-				setTimeout(function(){ 
-					bot.sendMessage({
-						to: channelID,
-						message: 'and now to go... '
-					});; 
-				}, 1000);
-				setTimeout(function(){ 
+			if(userID == "133692090432487424" || userID == "149920811275386880"){
+				oogaSwitch = !oogaSwitch
+				if(oogaSwitch){
+					wahahaInc = 10;
+					talkInc = 5;
+					setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
-							message: '...even further...'
+							message: 'and now to go... '
 						});; 
-				}, 2000);
-				setTimeout(function(){ 
+					}, 1000);
+					setTimeout(function(){ 
+							bot.sendMessage({
+								to: channelID,
+								message: '...even further...'
+							});; 
+					}, 2000);
+					setTimeout(function(){ 
+							bot.sendMessage({
+								to: channelID,
+								message: 'beyond!'
+							});; 
+					}, 3000);
+				}
+				else{
+					wahahaInc = 25;
+					talkInc = 100;
+					setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
-							message: 'beyond!'
+							message: "I guess that's reasonable..."
 						});; 
-				}, 3000);
+					}, 1000);
+					setTimeout(function(){ 
+							bot.sendMessage({
+								to: channelID,
+								message: '*sad react*'
+							});; 
+					}, 2000);
+				}
 			}
 			else{
-				wahahaInc = 25;
-				talkInc = 100;
-				setTimeout(function(){ 
-					bot.sendMessage({
-						to: channelID,
-						message: "I guess that's reasonable..."
-					});; 
-				}, 1000);
-				setTimeout(function(){ 
-						bot.sendMessage({
+				bot.sendMessage({
 							to: channelID,
-							message: '*sad react*'
+							message: 'access denied, biido'
 						});; 
-				}, 2000);
 			}
 		}
 		
@@ -491,6 +499,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 							bot.sendMessage({
 							to: channelID,
 							message: "Yes, Ree?"
+							});
+							break;
+						case "351832832802553874": //Ian
+							bot.sendMessage({
+							to: channelID,
+							message: "Yes, Ian?"
 							});
 							break;
 						default:
