@@ -194,7 +194,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			setTimeout(function(){ 
 					bot.sendMessage({
 						to: channelID,
-						message: "eric_shiritori"
+						message: "eric_quiz https://pastebin.com/Us0ZXMDr"
 					});; 
 				}, 5000);
 		}
@@ -214,7 +214,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			setTimeout(function(){ 
 					bot.sendMessage({
 						to: channelID,
-						message: "eric_quiz https://pastebin.com/Us0ZXMDr"
+						message: "eric_shiritori"
 					});; 
 				}, 5000);
 		}
