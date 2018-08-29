@@ -233,18 +233,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 						message: '👎'
 					});; 
 					break;
-				case 8:
-					bot.sendMessage({
-						to: channelID,
-						message: '<:484476698792820737:>'
-					});; 
-					break;
-				case 9:
-					bot.sendMessage({
-						to: channelID,
-						message: '<:484476658946932736:>'
-					});; 
-					break;
 			}
 		}
 		
