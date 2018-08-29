@@ -52,7 +52,7 @@ var to = require('fs').readFileSync('shiritori/to.txt').toString().match(/^.+$/g
 
 var da = require('fs').readFileSync('shiritori/da.txt').toString().match(/^.+$/gm);
 var de = require('fs').readFileSync('shiritori/de.txt').toString().match(/^.+$/gm);
-var dou = require('fs').readFileSync('shiritori/dou.txt').toString().match(/^.+$/gm);
+var dou = require('fs').readFileSync('shiritori/do.txt').toString().match(/^.+$/gm);
 
 var na = require('fs').readFileSync('shiritori/na.txt').toString().match(/^.+$/gm);
 var ni = require('fs').readFileSync('shiritori/ni.txt').toString().match(/^.+$/gm);
