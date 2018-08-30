@@ -239,14 +239,13 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         if(message.toUpperCase().includes("BIIDOMETER SET")){
             if(userID == "133692090432487424" || userID == "149920811275386880"){
                 message = message.replace ( /[^\d.]/g, '' );
-                try{
-                    biidoCount = parseInt(message,10);
-                }
-                catch(error){
+                biidoCount = parseInt(message,10);
+                if(isNaN(biidoCount)) {
                     bot.sendMessage({
                         to: channelID,
                         message: "! biidometer calibration error !"
                     });
+                    biidoCount =0;
                 }
                 if(biidoCount<69){
                     bot.sendMessage({
