@@ -559,7 +559,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
-							message: 'and now to go... '
+							message: 'and this is to go... '
 						});; 
 					}, 1000);
 					setTimeout(function(){ 
@@ -765,7 +765,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 						case "228231633336139776": //Mahdi
 							bot.sendMessage({
 							to: channelID,
-							message: "shut up, Hamado-kuun."
+							message: "shut up, Hamado-san."
 							});
 							break;
 						case "403247076831526912": //Olivia
