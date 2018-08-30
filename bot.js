@@ -239,10 +239,20 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		
 		if(message.toUpperCase().includes("BIIDO")|| message.toUpperCase().includes("B I I D O")){
 			biidoCount++;
-			bot.sendMessage({
+			if(biidoCount<69){
+				bot.sendMessage({
                     to: channelID,
                     message: '(Biidometer: ' + biidoCount + " )"
 			});
+			}
+			else{
+				bot.sendMessage({
+                    to: channelID,
+                    message: '[🌟 Biidometer: ' + biidoCount + " 🌟]"
+			});
+			}
+			
+			
 		}
 		if(message.toUpperCase().includes("ONION")|| message.toUpperCase().includes("ORION")){
 			bot.sendMessage({
@@ -737,6 +747,40 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			}
 			
 		}
+
+        else if(message.toUpperCase().includes("BIIDOMETER SET")){
+            if(userID == "133692090432487424" || userID == "149920811275386880"){
+                message = message.replace ( /[^\d.]/g, '' );
+                try{
+                    biidoCount = parseInt(message,10);
+                }
+                catch(error){
+                    bot.sendMessage({
+                        to: channelID,
+                        message: "! biidometer calibration error !"
+                    });
+                }
+                if(biidoCount<69){
+                    bot.sendMessage({
+                        to: channelID,
+                        message: '(Biidometer: ' + biidoCount + " )"
+                    });
+                }
+                else{
+                    bot.sendMessage({
+                        to: channelID,
+                        message: '[🌟 Biidometer: ' + biidoCount + " 🌟]"
+                    });
+                }
+            }
+            else{
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'access denied, biido'
+                });;
+            }
+
+        }
 		
 
 		
