@@ -14,6 +14,8 @@ var oogaSwitch = false;
 
 var myLines = require('fs').readFileSync('quotes.txt').toString().match(/^.+$/gm);
 
+var adminList = require('fs').readFileSync('adminIDs.txt').toString().match(/^.+$/gm);
+
 var a = require('fs').readFileSync('shiritori/a.txt').toString().match(/^.+$/gm);
 var i = require('fs').readFileSync('shiritori/i.txt').toString().match(/^.+$/gm);
 var u = require('fs').readFileSync('shiritori/u.txt').toString().match(/^.+$/gm);
@@ -237,7 +239,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		}
 
         if(message.toUpperCase().includes("BIIDOMETER SET") || message.toUpperCase().includes("BIIDO SET")){
-            if(userID == "133692090432487424" || userID == "149920811275386880"){
+            if(adminList.includes(userID)){
                 message = message.replace ( /[^\d.]/g, '' );
                 biidoCount = parseInt(message,10);
                 if(isNaN(biidoCount)) {
@@ -592,7 +594,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		}
 		
 		else if(message.toUpperCase().includes("OOGA BOOGA")||message.toUpperCase().includes("OOGER BOOGER")){
-			if(userID == "133692090432487424" || userID == "149920811275386880"){
+			if(adminList.includes(userID)){
 				oogaSwitch = !oogaSwitch
 				if(oogaSwitch){
 					wahahaInc = 10;
@@ -649,7 +651,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			});
 		}
 		else if(message.toUpperCase().includes("NAPTIME")){
-			if(userID == "133692090432487424" || userID == "149920811275386880"){
+			if(adminList.includes(userID)){
 				setTimeout(function(){ 
 					bot.sendMessage({
 						to: channelID,
@@ -679,7 +681,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			
 		}
 		else if(message.toUpperCase().includes("RESET COUNT")){
-			if(userID == "133692090432487424" || userID == "149920811275386880"){
+			if(adminList.includes(userID)){
 				setTimeout(function(){ 
 					bot.sendMessage({
 						to: channelID,
@@ -703,7 +705,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			
 		}
 		else if(message.toUpperCase().includes("ERIC SETUP 2")){
-			if(userID == "133692090432487424" || userID == "149920811275386880"){
+			if(adminList.includes(userID)){
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
@@ -744,7 +746,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			
 		}
 		else if(message.toUpperCase().includes("ERIC SETUP")){
-			if(userID == "133692090432487424" || userID == "149920811275386880"){
+			if(adminList.includes(userID)){
 				setTimeout(function(){ 
 						bot.sendMessage({
 							to: channelID,
