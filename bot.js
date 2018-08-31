@@ -191,7 +191,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					});; 
 		}
 		else if(message.toUpperCase().includes("REACT")){
-			var randReact = Math.floor(Math.random()*9)+1;
+			var randReact = Math.floor(Math.random()*7)+1;
 			switch(randReact){
 				case 1:
 					bot.sendMessage({
@@ -680,7 +680,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			}
 			
 		}
-		else if(message.toUpperCase().includes("RESET COUNT")){
+		else if(message.toUpperCase().includes("RESET COUNT") || message.toUpperCase().includes("COUNT RESET")){
 			if(adminList.includes(userID)){
 				setTimeout(function(){ 
 					bot.sendMessage({
