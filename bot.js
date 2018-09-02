@@ -844,7 +844,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 						case "149920811275386880": //Claudia
 							bot.sendMessage({
 							to: channelID,
-							message: "yes, Biido-san?"
+							message: "What do you anoneed, Biido-san?"
 							});
 							break;
 						case "251095980278022155": //Shaad
