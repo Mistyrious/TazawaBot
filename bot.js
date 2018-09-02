@@ -645,10 +645,20 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		
 		
 		else if(message.toUpperCase().includes("IPPON") || message.toUpperCase().includes("DEMO") || message.toUpperCase().includes("NINJIN")){
-			bot.sendMessage({
+			var randomIp = Math.floor(Math.random()*4)+1;
+			if(randomIp<=3){
+				bot.sendMessage({
                     to: channelID,
                     message: "https://www.youtube.com/watch?v=4s7DI3KQjsM&feature=youtu.be"
-			});
+				});
+			}
+			else{
+				bot.sendMessage({
+                    to: channelID,
+                    message: "https://youtu.be/VxKZytsKj3Q"
+				});
+			}
+			
 		}
 		else if(message.toUpperCase().includes("NAPTIME")){
 			if(adminList.includes(userID)){
