@@ -11,6 +11,7 @@ var talkCount = 27;
 var talkInc = 100;
 
 var oogaSwitch = false;
+var sfw = false;
 
 var myLines = require('fs').readFileSync('quotes.txt').toString().match(/^.+$/gm);
 
@@ -556,6 +557,64 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					});; 
 				}, 5000);
 		}
+		else if(message.toUpperCase().includes("MEME TOGGLE")){
+            if(adminList.includes(userID)) {
+                sfw = !sfw
+                if (sfw) {
+                    setTimeout(function () {
+                        bot.sendMessage({
+                            to: channelID,
+                            message: 'Maturity filter on?!'
+                        });
+                        ;
+                    }, 1000);
+                    setTimeout(function () {
+                        bot.sendMessage({
+                            to: channelID,
+                            message: "What's my purpose then?"
+                        });
+                        ;
+                    }, 2000);
+                    setTimeout(function () {
+                        bot.sendMessage({
+                            to: channelID,
+                            message: "😢"
+                        });
+                        ;
+                    }, 5000);
+                }
+                else {
+                    setTimeout(function () {
+                        bot.sendMessage({
+                            to: channelID,
+                            message: '*~ohoho~*'
+                        });
+                        ;
+                    }, 1000);
+                    setTimeout(function () {
+                        bot.sendMessage({
+                            to: channelID,
+                            message: "I'm feeling better than ever!"
+                        });
+                        ;
+                    }, 2000);
+                    setTimeout(function () {
+                        bot.sendMessage({
+                            to: channelID,
+                            message: "🎱"
+                        });
+                        ;
+                    }, 5000);
+                }
+            }
+            else{
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'access denied, biido'
+                });;
+            }
+		}
+		
 		else if(message.toUpperCase().includes("GAME TIME")){
 			setTimeout(function(){ 
 					bot.sendMessage({
@@ -946,7 +1005,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					break;
 			}
 		}
-		else if(talkCount%talkInc==0){
+		else if(talkCount%talkInc==0 && !sfw){
 			var randomQuote = Math.floor(Math.random()*myLines.length-1);
 			setTimeout(function(){ 
 					bot.sendMessage({
