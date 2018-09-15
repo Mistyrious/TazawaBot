@@ -717,6 +717,21 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: "https://youtu.be/VxKZytsKj3Q"
 				});
 			}
+		}
+		else if(message.toUpperCase().includes("SAFETY") && message.toUpperCase().includes("DANCE")){
+			var randomIp = Math.floor(Math.random()*4)+1;
+			if(randomIp<=3){
+				bot.sendMessage({
+                    to: channelID,
+                    message: "https://youtu.be/AjPau5QYtYs"
+				});
+			}
+			else{
+				bot.sendMessage({
+                    to: channelID,
+                    message: "https://youtu.be/QTFQWYyq7w4"
+				});
+			}
 			
 		}
 		else if(message.toUpperCase().includes("NAPTIME")){
